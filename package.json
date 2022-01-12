@@ -1,0 +1,17 @@
+{
+  "name": "blog-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js"
+  },
+
+  "repository": "https://github.com/tranhuyducseven/expressJs-blog-clone.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
