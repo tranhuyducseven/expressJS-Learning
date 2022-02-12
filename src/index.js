@@ -6,12 +6,12 @@ const db = require('./config/db');
 
 const app = express();
 const port = 3000;
-
-const route = require('./routes');
-
 //connect db to
 
 db.connect();
+const route = require('./routes');
+
+
 
 
 //static files
