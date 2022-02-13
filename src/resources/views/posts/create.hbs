@@ -1,0 +1,19 @@
+<div class="mt-4">
+    <h3>Add post</h3>
+
+    <form method="POST" action="/posts/store">
+        <div class="form-group">
+            <label for="name">Title</label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <input type="text" class="form-control" id="description" name="description">
+        </div>
+        <div class="form-group">
+            <label for="image">Image URL</label>
+            <input type="text" class="form-control" id="image" name="image">
+        </div>
+        <button  type="submit" class="mt-5 btn btn-primary">Add a new post</button>
+    </form>
+</div>
